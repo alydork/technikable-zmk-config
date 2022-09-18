@@ -95,9 +95,9 @@
 #ifdef TBLE_DUAL_2U
                      &trans     &kp N0              &kp MINUS                 &trans            &trans         &trans
 #elif defined(TBLE_MIT)
-                     &trans     &trans      &trans            &none           &trans      &trans      &trans
+                     &trans     &trans      &trans            &trans           &trans      &trans      &trans
 #else
-                     &trans     &kp N0      &kp MINUS    &none         &none     &kp ESC        &kp DEL      &trans
+                     &trans     &trans       &kp MINUS    &trans         &trans     &trans         &trans       &trans
 #endif
             >;
         };
